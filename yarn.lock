@@ -4889,10 +4889,10 @@ markdown-table@^2.0.0:
   dependencies:
     repeat-string "^1.0.0"
 
-marked@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-4.1.1.tgz#2f709a4462abf65a283f2453dc1c42ab177d302e"
-  integrity sha512-0cNMnTcUJPxbA6uWmCmjWz4NJRe/0Xfk2NhXCUHjew9qJzFN20krFnsUe7QynwqOwa5m1fZ4UDg0ycKFVC0ccw==
+marked@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-5.0.0.tgz#bab5df970d1f6f748ccac0d20c54b598277f2002"
+  integrity sha512-YQ6+L9l/NSBDjFgCQQebmTCc62EUdZ5RpIZ7A/FmC8IYMB5s7Cz8sT7imuMAkbIL4CvXpQLdW45fpK5UwiU7DA==
 
 math-interval-parser@^2.0.1:
   version "2.0.1"
@@ -6871,7 +6871,7 @@ tar-stream@^2.0.0:
     readable-stream "^3.1.1"
 
 "taskcluster-client@link:clients/client":
-  version "48.3.0"
+  version "49.1.2"
   dependencies:
     debug "^4.1.1"
     got "^11.8.1"
@@ -6881,37 +6881,37 @@ tar-stream@^2.0.0:
     taskcluster-lib-urls "^13.0.0"
 
 "taskcluster-db@link:db":
-  version "48.3.0"
+  version "49.1.2"
 
 "taskcluster-lib-api@link:libraries/api":
-  version "48.3.0"
+  version "49.1.2"
 
 "taskcluster-lib-app@link:libraries/app":
-  version "48.3.0"
+  version "49.1.2"
 
 "taskcluster-lib-azqueue@link:libraries/azqueue":
-  version "48.3.0"
+  version "49.1.2"
 
 "taskcluster-lib-config@link:libraries/config":
-  version "48.3.0"
+  version "49.1.2"
 
 "taskcluster-lib-iterate@link:libraries/iterate":
-  version "48.3.0"
+  version "49.1.2"
 
 "taskcluster-lib-loader@link:libraries/loader":
-  version "48.3.0"
+  version "49.1.2"
 
 "taskcluster-lib-monitor@link:libraries/monitor":
-  version "48.3.0"
+  version "49.1.2"
 
 "taskcluster-lib-postgres@link:libraries/postgres":
-  version "48.3.0"
+  version "49.1.2"
 
 "taskcluster-lib-pulse@link:libraries/pulse":
-  version "48.3.0"
+  version "49.1.2"
 
 "taskcluster-lib-references@link:libraries/references":
-  version "48.3.0"
+  version "49.1.2"
 
 taskcluster-lib-scopes@^11.0.0:
   version "11.0.0"
@@ -6921,7 +6921,7 @@ taskcluster-lib-scopes@^11.0.0:
     fast-json-stable-stringify "^2.1.0"
 
 "taskcluster-lib-testing@link:libraries/testing":
-  version "48.3.0"
+  version "49.1.2"
 
 taskcluster-lib-urls@^13.0.0:
   version "13.0.1"
@@ -6929,7 +6929,7 @@ taskcluster-lib-urls@^13.0.0:
   integrity sha512-WrhKMbiWmpPrB0vbzLZq4W35mhdPVLklZY+qrBoI7KQzFAjO/qsgS8ssHL6eYmvBf4fE7C+C9ZFxQpQOUynQvg==
 
 "taskcluster-lib-validate@link:libraries/validate":
-  version "48.3.0"
+  version "49.1.2"
 
 test-exclude@^6.0.0:
   version "6.0.0"
