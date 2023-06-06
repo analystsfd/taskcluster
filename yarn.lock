@@ -466,7 +466,7 @@
     titleize "2"
     tlds "^1.231.0"
 
-"@matrix-org/matrix-sdk-crypto-js@^0.1.0-alpha.7":
+"@matrix-org/matrix-sdk-crypto-js@^0.1.0-alpha.9":
   version "0.1.0-alpha.9"
   resolved "https://registry.yarnpkg.com/@matrix-org/matrix-sdk-crypto-js/-/matrix-sdk-crypto-js-0.1.0-alpha.9.tgz#00bc266781502641a661858a5a521dd4d95275fc"
   integrity sha512-g5cjpFwA9h0CbEGoAqNVI2QcyDsbI8FHoLo9+OXWHIezEKITsSv78mc5ilIwN+2YpmVlH0KNeQWTHw4vi0BMnw==
@@ -4895,13 +4895,13 @@ matrix-events-sdk@0.0.1:
   resolved "https://registry.yarnpkg.com/matrix-events-sdk/-/matrix-events-sdk-0.0.1.tgz#c8c38911e2cb29023b0bbac8d6f32e0de2c957dd"
   integrity sha512-1QEOsXO+bhyCroIe2/A5OwaxHvBm7EsSQ46DEDn8RBIfQwN5HWBpFvyWWR4QY0KHPPnnJdI99wgRiAl7Ad5qaA==
 
-matrix-js-sdk@^25.1.1:
-  version "25.1.1"
-  resolved "https://registry.yarnpkg.com/matrix-js-sdk/-/matrix-js-sdk-25.1.1.tgz#edf15d635e1314f85e8d8e2aba2b211d968bfb99"
-  integrity sha512-GJElcbP+OzODqSaAKTe4C7AFg/2KbrHVNzahelWxf3I09IVeWBW3gml6sI3ozfB3DlEBpQnUzDMBsr7n2asILw==
+matrix-js-sdk@^26.0.0:
+  version "26.0.0"
+  resolved "https://registry.yarnpkg.com/matrix-js-sdk/-/matrix-js-sdk-26.0.0.tgz#44134f4af8f401537edfee79a93a520b7effc6b3"
+  integrity sha512-HLosQgRjEb2/j4CpxncIqRklKKaWKZcfut6DDLswVf6d0pCXHbLp39iCy4obpJiWH2H/4k/HMvDzj3+8J8qWWw==
   dependencies:
     "@babel/runtime" "^7.12.5"
-    "@matrix-org/matrix-sdk-crypto-js" "^0.1.0-alpha.7"
+    "@matrix-org/matrix-sdk-crypto-js" "^0.1.0-alpha.9"
     another-json "^0.2.0"
     bs58 "^5.0.0"
     content-type "^1.0.4"
@@ -6873,7 +6873,7 @@ tar-stream@^2.0.0:
     readable-stream "^3.1.1"
 
 "taskcluster-client@link:clients/client":
-  version "51.1.0"
+  version "52.0.0"
   dependencies:
     debug "^4.1.1"
     got "^11.8.1"
@@ -6883,37 +6883,37 @@ tar-stream@^2.0.0:
     taskcluster-lib-urls "^13.0.0"
 
 "taskcluster-db@link:db":
-  version "51.1.0"
+  version "52.0.0"
 
 "taskcluster-lib-api@link:libraries/api":
-  version "51.1.0"
+  version "52.0.0"
 
 "taskcluster-lib-app@link:libraries/app":
-  version "51.1.0"
+  version "52.0.0"
 
 "taskcluster-lib-azqueue@link:libraries/azqueue":
-  version "51.1.0"
+  version "52.0.0"
 
 "taskcluster-lib-config@link:libraries/config":
-  version "51.1.0"
+  version "52.0.0"
 
 "taskcluster-lib-iterate@link:libraries/iterate":
-  version "51.1.0"
+  version "52.0.0"
 
 "taskcluster-lib-loader@link:libraries/loader":
-  version "51.1.0"
+  version "52.0.0"
 
 "taskcluster-lib-monitor@link:libraries/monitor":
-  version "51.1.0"
+  version "52.0.0"
 
 "taskcluster-lib-postgres@link:libraries/postgres":
-  version "51.1.0"
+  version "52.0.0"
 
 "taskcluster-lib-pulse@link:libraries/pulse":
-  version "51.1.0"
+  version "52.0.0"
 
 "taskcluster-lib-references@link:libraries/references":
-  version "51.1.0"
+  version "52.0.0"
 
 taskcluster-lib-scopes@^11.0.0:
   version "11.0.0"
@@ -6923,7 +6923,7 @@ taskcluster-lib-scopes@^11.0.0:
     fast-json-stable-stringify "^2.1.0"
 
 "taskcluster-lib-testing@link:libraries/testing":
-  version "51.1.0"
+  version "52.0.0"
 
 taskcluster-lib-urls@^13.0.0:
   version "13.0.1"
@@ -6931,7 +6931,7 @@ taskcluster-lib-urls@^13.0.0:
   integrity sha512-WrhKMbiWmpPrB0vbzLZq4W35mhdPVLklZY+qrBoI7KQzFAjO/qsgS8ssHL6eYmvBf4fE7C+C9ZFxQpQOUynQvg==
 
 "taskcluster-lib-validate@link:libraries/validate":
-  version "51.1.0"
+  version "52.0.0"
 
 test-exclude@^6.0.0:
   version "6.0.0"
