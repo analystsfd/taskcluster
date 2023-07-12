@@ -97,6 +97,36 @@ func RenameCrossDevice(oldpath, newpath string) (err error) {
 	return os.Rename(oldpath, newpath)
 }
 
+func (task *TaskRun) addUserToGroups(groups []string) (updatedGroups []string, notUpdatedGroups []string) {
+	if len(groups) == 0 {
+		return []string{}, []string{}
+	}
+	for _, group := range groups {
+		err := host.Run("usermod", "-a", "-G", group, taskContext.User.Name)
+		if err == nil {
+			updatedGroups = append(updatedGroups, group)
+		} else {
+			notUpdatedGroups = append(notUpdatedGroups, group)
+		}
+	}
+	return
+}
+
+func (task *TaskRun) removeUserFromGroups(groups []string) (updatedGroups []string, notUpdatedGroups []string) {
+	if len(groups) == 0 {
+		return []string{}, []string{}
+	}
+	for _, group := range groups {
+		err := host.Run("net", "localgroup", group, "/delete", taskContext.User.Name)
+		if err == nil {
+			updatedGroups = append(updatedGroups, group)
+		} else {
+			notUpdatedGroups = append(notUpdatedGroups, group)
+		}
+	}
+	return
+}
+
 func defaultTasksDir() string {
 	// assume all user home directories are all in same folder, i.e. the parent
 	// folder of the current user's home folder

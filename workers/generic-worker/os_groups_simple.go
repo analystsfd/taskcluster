@@ -1,4 +1,4 @@
-//go:build simple && (darwin || linux || freebsd)
+//go:build simple
 
 package main
 
