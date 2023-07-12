@@ -3,6 +3,6 @@
 package main
 
 func (osGroups *OSGroups) UpdateCommands() {
-//	for _, command := range osGroups.Task.Commands {
-//	}
+	// for _, command := range osGroups.Task.Commands {
+	// }
 }
